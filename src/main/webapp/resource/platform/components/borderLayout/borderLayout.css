@@ -1,0 +1,22 @@
+.borderLayout{
+	position: relative;
+	overflow:hidden;
+}
+
+.borderLayout .top{
+	width:100%;
+	position:absolute;
+	overflow: hidden;
+}
+
+.borderLayout .center{
+	width:100%;
+	position:absolute;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.borderLayout .bottom{
+	width:100%;
+	position:absolute;
+}

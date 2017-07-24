@@ -1,0 +1,427 @@
+body {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+   background-color:#E9E9E9;
+	text-align: center;
+	display: block;
+}
+
+.main {
+	position: relative;
+	width: 876px;
+	height: 500px;
+	margin: 0 auto;
+	background: url(../images/login/login_frame_natural.png) no-repeat 50% 118px
+}
+
+.login_box {
+	position: absolute;
+	top: 200px;
+	right: 290px;
+}
+ 
+.version {
+	position: absolute;
+	bottom: 25px;
+	text-align: center;
+	left: 50%;
+	margin-left: -95px;
+	color: #666;
+	line-height: 20px;
+}
+.version2 {
+	position: absolute;
+	text-align: center;
+	left:205px;
+	color: #666;
+	line-height: 20px;
+	bottom:-150px;
+}
+ 
+
+
+tr{
+	height:18px;
+	width:400px;
+}
+td{
+	text-align: center;
+	vertical-align: middle;
+    font-size:14;
+	color:grey;
+	 
+}
+table{
+	 margin-top:20px;
+}
+/* td{
+	width: 20px;
+	height: 30px;
+	
+} */
+.app{
+	width: 44px;
+	height: 30px;
+	border: 0px;
+	color: #fff;
+	background-color: Transparent;
+	background:url(../images/login/apple.jpg) no-repeat;
+}
+.androidlight{
+	
+	width: 44px;
+	height: 30px;
+	border: 0px ;
+	color: #fff;
+	background-color: Transparent;
+	background:url(../images/login/android.jpg) no-repeat;
+}
+.pwdcheck{
+  	position:absolute;
+	width:22px;
+	height: 35px;
+	 left:-10px;
+	color: #fff;
+	 top:10px;
+	background-color: Transparent;  
+	background:url(../images/login/choose.jpg) no-repeat;
+	
+}
+.pwdchecked{
+		
+		position:absolute;
+	width:22px;
+	height: 35px;
+	 left:-10px;
+	color: #fff;
+	 top:10px;
+	background-color: Transparent;  
+	  cursor:pointer;
+	background:url(../images/login/choose_yes.jpg) no-repeat;
+	
+}
+
+.splitdian{
+	width: 44px;
+	height: 30px;
+	border: 0px;
+	color: #fff;
+	background-color: Transparent;
+	background:url(../images/login/choose_space.jpg) no-repeat;
+	
+}
+
+.usernameleft{
+   	 position:absolute;
+	width:34px;
+	height:44px;
+	 text-align:left;  
+background:url(../images/login/user.jpg) no-repeat;
+}
+ .usernamemiddle{
+  
+   	 position:relative;
+   	 
+	   font-size:16px;
+    text-align:left;
+    vertical-align:middle;
+	width:268px;
+	height:44px;
+
+	margin-left:33px;
+	   color:grey;
+	  
+	  background:url(../images/login/u_k_middle.jpg) repeat-x  ;  
+}
+ .usernamemiddle_on{
+  
+   	 position:relative;
+   	 
+	   font-size:16px;
+    text-align:left;
+    vertical-align:middle;
+	 width:268px;
+	height:44px;  
+	margin-left:33px;
+	color:grey;
+	background:url(../images/login/u_k_middle.jpg) repeat-x  ;  
+} 
+.usernameright{
+	position:absolute;
+		float:left;
+	width:9px;
+	height:44px;	
+	margin-left:301px; 
+	 text-align:left;
+	background:url(../images/login/u_k_right.jpg) no-repeat;
+}  
+.loginleft{
+	 
+	position:absolute;
+	width:9px;
+	height:48px;
+	top:20px;  
+	left:0px; 
+	background:url(../images/login/login_left.gif) no-repeat;
+}
+.loginleft_on{
+   position:absolute;
+	width:9px;
+	height:48px;
+    left:0px; 	
+	top:20px;  
+	 cursor:pointer;
+	background:url(../images/login/login_light_left.gif) no-repeat;
+	 
+}
+.loginmiddle{
+     position:relative;	 
+	width:186px;
+	height:48px;
+ margin-top:20px;  
+ font-size:14px;
+   color:white;
+	background-image:url(../images/login/login_middle.gif)   ;
+	background-repeat:repeat-x;
+}
+.loginmiddle_on{
+	position:relative;
+	 cursor:pointer;
+	width:186px;
+	height:48px;
+  font-size:14px;
+   color:white;
+  margin-top:20px;  
+	background:url(../images/login/login_light_middle.gif)  repeat-x ;
+}
+.loginingmiddle{
+	position:relative;	 
+	width:186px;
+	height:48px;
+ margin-top:20px;  
+ font-size:14px;
+   color:#A9A9A9;
+	background:url(../images/login/logining_middle.gif) repeat-x ;
+}
+.loginingright{
+	position:absolute; 
+		 left:194px;
+		width:8px;
+	height:48px;
+	top:20px;  
+	background:url(../images/login/logining_light_right.gif) no-repeat;
+}
+.loginingleft{
+	position:absolute;
+	width:9px;
+	height:48px;
+	top:20px;  
+	left:0px; 
+	background:url(../images/login/logining_light_left.gif) no-repeat;
+}
+.loginright_on{
+	 position:absolute; 
+	 left:194px;
+	 width:8px;
+	 height:48px;
+	 top:20px;   
+	 cursor:pointer;
+	 background:url(../images/login/login_light_right.gif) no-repeat;
+}
+.loginright{ 
+ 
+		position:absolute; 
+		 left:194px;
+		width:8px;
+	height:48px;
+	top:20px;  
+	background:url(../images/login/login_right.gif) no-repeat;
+}
+.pwdleft{
+	 position:absolute;
+	width:34px;
+	height:44px;
+ 	
+	background:url(../images/login/key.jpg) no-repeat;
+}
+.pwdmiddle{
+   	 position:relative;
+	   font-size:16px;
+    text-align:left;
+    vertical-align:middle;
+	width:268px;
+	height:44px;
+	margin-left:33px;
+	   color:grey;
+	background:url(../images/login/u_k_middle.jpg) repeat-x  ;
+}
+.pwdright{
+	 position:absolute;
+	float:left;
+	 width:8px;
+	height:44px;
+	 margin-left:301px;
+	background:url(../images/login/u_k_right.jpg) no-repeat;
+}
+.username{
+	 position:absolute;
+	height:44px;
+	width:299px;
+	left:-295px;
+ z-index:2px;
+	 
+}
+
+
+.pwd{
+	 position:absolute;
+    top:70px;
+    left:-295px;
+	height:44px;
+	width:299px;
+	z-index:2px;
+	 
+}
+.login{
+    position:absolute;
+	 left:-240px;
+	top:150px;
+	height:48px;
+	width:202px;
+	 
+}
+.logintext{
+	margin-left:16px;
+	margin-top:15px;
+	font-size:1px;
+	color:white;
+	text-align:center;
+	vertical-align:middle;
+
+}
+.tipleft{
+	 position:absolute;
+	height:35px;
+	width:23px;
+	 left:2px;
+	top:0px;
+	 
+	
+	background:url(../images/login/error_left.gif) no-repeat;
+}
+.tipmiddle{
+	position:absolute;
+	height:35px;
+	width:76px;
+	 
+	  left:23px;
+	background:url(../images/login/error_middle.gif)  repeat-x;
+}
+.tipright{
+	position:absolute;
+	height:35px;
+    left:99px;
+	width:8px;
+	 
+	background:url(../images/login/error_right.gif) no-repeat;
+}
+.tip{position:absolute;
+ 	 display:none;
+	width:155px;
+	height:35px;
+    top:32px;
+    left:-277px;
+     
+}
+ .tipon{position:absolute;
+	  left:14px;
+	  width:155px;
+	  height:35px;
+      top:32px;
+      left:-277px;
+}
+ 
+.tippwd{position:absolute;
+	  display:none;
+     left:-277px;
+	 top:102px;
+	width:100px;
+	height:35px;
+
+    
+}
+.tippwdon{position:absolute;
+    left:-277px;
+	 top:102px;
+	width:100px;
+	height:35px;
+
+}
+.tippwdright{
+	position:absolute;
+	height:35px;
+	 left:83px;
+	width:8px;
+	background:url(../images/login/error_right.gif) no-repeat;
+}
+.tippwdmiddle{
+	position:absolute;
+	height:35px;
+	width:60px;
+	 left:23px;
+
+	background:url(../images/login/error_middle.gif)  repeat-x;
+}
+.tippwdleft{
+	 position:absolute;
+	  
+	height:35px;
+	width:23px;
+	left:2px;
+	top:0px;
+    z-index:2px;
+	background:url(../images/login/error_left.gif) no-repeat;
+}
+/* .tiptext{
+	margin-top:-20px;
+	width:155px;
+	height:35px;
+	margin-left:14px;
+	 z-index:3;
+	font-size:14px;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid green;
+}
+  */
+  .tishi{
+ 
+  position: absolute;
+   top:13px ;
+   left :-14px;
+   font-size: 14px;
+   color:#847c7a
+  
+  }
+  .repwd{
+   position: absolute;
+    width:300px;
+     height:22px;
+    
+  top:126px;
+  left:-286px;
+  	 cursor:pointer;
+  
+  }
+  
+  .checkremberpwd{
+     position: absolute;
+     color:grey;
+     width:100px;
+     height:30px;
+     font-size:14px;
+     left:10px;
+     top:14px;
+     
+  }
+ input{outline:none} 

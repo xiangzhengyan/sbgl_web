@@ -1,0 +1,15 @@
+.multipleLabel{
+	background-image:url(combo_select.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+	width:200px;
+	border:1px solid #999;
+	height:23px;
+	line-height:21px;
+}
+
+.label_invalid{
+	background-image:url(mul_invalid_line.png);
+	background-repeat:repeat-x;
+	background-position-y: bottom;
+}

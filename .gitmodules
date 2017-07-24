@@ -1,0 +1,3 @@
+[submodule "mxd"]
+	path = mxd
+	url = git@g.asiacom-online.com:xiangyz/nd_mxd.git

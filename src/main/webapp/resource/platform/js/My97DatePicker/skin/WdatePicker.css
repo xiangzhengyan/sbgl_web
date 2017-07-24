@@ -1,0 +1,16 @@
+.Wdate{
+	background-image: url(datePicker.gif) ;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.date_input_invalid {
+	background-image: url("date_invalid_line.gif") ;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}
